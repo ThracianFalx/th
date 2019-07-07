@@ -1,0 +1,58 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "simple discord music bot based on discord.js-commando",
+  "main": "index.js",
+  "dependencies": {
+    "@mindaugaskasp/node-osu": "github:mindaugaskasp/node-osu",
+    "@mindaugaskasp/node-riot": "github:mindaugaskasp/node-riot",
+    "@mindaugaskasp/node-twitch": "github:mindaugaskasp/node-twitch",
+    "@mindaugaskasp/node-youtube": "github:mindaugaskasp/node-youtube",
+    "axios": "^0.15.3",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "libsodium-wrappers": "^0.7.4",
+    "moment": "^2.24.0",
+    "node-opus": "^0.3.1",
+    "node-youtube": "^0.2.4",
+    "opusscript": "0.0.6",
+    "promised-io": "^0.3.5",
+    "sqlite": "^3.0.3",
+    "uws": "^10.148.1",
+    "validator": "^9.4.1",
+    "ytdl-core": "^0.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prod": "node ./index.js",
+    "debug": "node --inspect-brk=127.0.0.1:8080 ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindaugaskasp/discord-music-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "discord-music",
+    "discord-music-bot",
+    "command-bot",
+    "discord-js.commando",
+    "music",
+    "bot",
+    "listen.moe",
+    "discord",
+    "bot"
+  ],
+  "author": "Mindaugas Kasparavičius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mindaugaskasp/discord-music-bot/issues"
+  },
+  "homepage": "https://github.com/mindaugaskasp/discord-music-bot#readme"
+}
